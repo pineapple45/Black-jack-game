@@ -1,5 +1,4 @@
 import random
-import time
 
 suits=('Diamond','Club','Hearts','spades')
 ranks=('Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','King','Queen','Jack','Ace')
@@ -395,9 +394,6 @@ class SpecialCond(Hand):
 
 def clear():
     print('\n'*5)
-    print('Please press shift + L to clear the previous screen')
-    time.sleep(10)
-
 
 
 
